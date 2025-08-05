@@ -69,7 +69,6 @@ crash.log
 node_modules/
 dist/
 build/
-*.yml
 *.css
 *.tsx
 *.js
