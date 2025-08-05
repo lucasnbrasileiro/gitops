@@ -8,13 +8,13 @@
 # 📁 Pastas comuns de build
 /bin/
 /obj/
-/Debug/
 /.zip
 *.tar.gz
 *.tar
 *.tgz
 *.zip
 *.info
+/02-eks-stack/
 
 # 🐳 Docker
 Dockerfile
@@ -75,3 +75,4 @@ build/
 *.js
 *.mjs
 *.ts
+*.md
