@@ -3,7 +3,7 @@ resources:
   - backend/service.yml
   - frontend/deployment.yml
   - frontend/service.yml
-  - ingress.yml
+  - Kubernetes/ingress.yml
 
 images:
   - name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
