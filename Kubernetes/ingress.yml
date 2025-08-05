@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: workshop-ingress
   annotations:
-    alb.ingress.kubernetes.io/load-balancer-name: workshop-load-balancer-lnb
+    alb.ingress.kubernetes.io/load-balancer-name: workshop-load-balancer
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/subnets: subnet-0c037c65de5bd7da9,subnet-094eac7f7e22fef41
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
