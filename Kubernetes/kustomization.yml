@@ -8,7 +8,7 @@ resources:
 images:
   - name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
     newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
-    newTag: v1.0
+    newTag: v1.4
 
   - name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
     newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
