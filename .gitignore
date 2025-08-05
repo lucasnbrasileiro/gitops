@@ -1,0 +1,77 @@
+# ⚙️ VS Code
+.vscode/
+*.code-workspace
+
+# 📦 macOS
+.DS_Store
+
+# 📁 Pastas comuns de build
+/bin/
+/obj/
+/Debug/
+/.zip
+*.tar.gz
+*.tar
+*.tgz
+*.zip
+*.info
+
+# 🐳 Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# 🧱 Terraform
+*.tf
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# 🔧 HCL e JSON
+*.hcl
+*.json
+
+# 📸 Imagens
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+
+# 🧪 C# / .NET (caso esteja usando algo em .NET)
+*.cs
+*.csproj
+*.sln
+*.user
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.exe
+*.dll
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*YoutubeLiveApp.GeneratedMSBuildEditorConfig.editorconfig
+
+# 🌐 Arquivos de propriedades
+*.properties
+
+# ✨ Outros padrões úteis
+*.log
+*.tmp
+*.bak
+*.swp
+*.env
+.env.*
+node_modules/
+dist/
+build/
+*.yml
+*.css
+*.tsx
+*.js
+*.mjs
+*.ts
