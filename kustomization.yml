@@ -1,17 +1,17 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - backend/deployment.yml
-  - backend/service.yml
-  - frontend/deployment.yml
-  - frontend/service.yml
-  - ingress.yml
+- backend/deployment.yml
+- backend/service.yml
+- frontend/deployment.yml
+- frontend/service.yml
+- ingress.yml
+
 
 images:
-  - name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
-    newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
-    newTag: v1.0
-
-  - name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
-    newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
-    newTag: v1.0
+- name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
+  newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/backend
+  newTag: 9133d0600d174abaa5bc8984aded4e4cc92e71f9
+- name: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
+  newName: 888500057930.dkr.ecr.us-east-1.amazonaws.com/dvn-workshop/production/frontend
+  newTag: v1.0
